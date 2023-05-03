@@ -43,7 +43,7 @@ unordered_map<int, vector<int>> construct_lattice(string input_file) {
 int main(int argc, char **argv) {
     // Construct lattice from the data set
     unordered_map<int, vector<int>> lattice = construct_lattice(argv[1]);
-    // The set of simplices that have been ;looked at' while searching, but not necesarily visited, or looked at its neighbors
+    // The set of simplices that have been 'looked at' while searching, but not necesarily visited, or looked at its neighbors
     unordered_set<int> seen_simplices;
     // The set of simplices who have been visited and whose neighbors have been looked at
     // Note that c++ sets do not add duplicate members
